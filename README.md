@@ -135,7 +135,7 @@ Gardio Pay enables:
 The Gardio Pay source code can be **shared under NDA** for technical or evaluation purposes.  
 Please contact **info@gardio.io** to request access.
 
-> The **User Guide**, **Gardio Pay Portal link**, **Gardio Simulator link**, and **demo credentials** were submitted securely via the **Dropbox link** during the hackathon submission.
+> The User Guide, which includes the Gardio Pay Portal link, Gardio Simulator link, and demo credentials, was submitted securely via the Dropbox link during the hackathon submission.
 ---
 
 ## 🏷️ Tags / Topics
