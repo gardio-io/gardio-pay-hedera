@@ -24,7 +24,7 @@ Our mission is to revolutionize payment systems by enabling seamless native cryp
 
 ## Links
 - Contact: info@gardio.io  
-- Hackathon Submission: [Hedera Africa Hackathon](https://dorahacks.io/buidl/35536)
+- Hackathon Submission: [Hedera Africa Hackathon](https://dorahacks.io/buidl/35550)
 
 ---
 ## Tags / Topics
