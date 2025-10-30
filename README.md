@@ -53,7 +53,7 @@ It reproduces the same interaction shown in the demo, allowing judges to execute
    This allows judges to test the full demo flow (user–merchant interaction) **without requiring physical hardware**.
 
 
-> 🟡 **Note:** Card provisioning and merchant registration are **offline steps** handled through secure PoS terminals and backend systems.
+> 🟡 **Note:** Card provisioning, card registration, terminal provisioning, terminal registration, and merchant registration are **offline steps** performed during the setup phase using **developer tools**, and are **not included in the demo**.
 
 ---
 
