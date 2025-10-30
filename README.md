@@ -36,8 +36,8 @@ It reproduces the same interaction shown in the demo, allowing judges to execute
 1. **Portal Frontend Server**  
    Provides the user interface for managing cards, viewing transaction history, and charging accounts.
 
-2. **SmartCard (EMV Contact / Contactless)**  
-   A secure hardware card supporting both **contact** EMV and **contactless in progress** transactions for seamless user experience.
+2. **Gardio SmartCard**  
+  A secure hardware card supporting **contact EMV transactions**, with **contactless support currently in progress**, ensuring a seamless user experience.
 
 3. **Gardio-Pay PoS Application**  
    Runs on **Linux-based PoS terminals**, with an **Android version in progress**, enabling merchants to process crypto transactions using Gardio Cards.
@@ -62,7 +62,8 @@ It reproduces the same interaction shown in the demo, allowing judges to execute
 During the hackathon period, we achieved the following major updates:
 
 1. **Hedera Network Support**  
-   Migrated from Solana and **rewrote the smart contract from Rust to Solidity** for full compatibility with Hedera.
+  Migrated from **Solana** and **rewrote the smart contract from Rust to Solidity** for full compatibility with **Hedera**.  
+  Updated the **frontend** and **backend** to use **Ethers.js**, **Hedera SDK**, and **MetaMask**, replacing Solana Web3, Solflare, and Phantom wallets.
 
 2. **Card + PoS Simulator**  
    Added a simulator package allowing judges to **test the demo** without requiring the physical card or terminal hardware.
@@ -71,8 +72,7 @@ During the hackathon period, we achieved the following major updates:
 
 ## 🔐 Security and Policy
 
-- **Transaction signing** happens inside the card or simulator — private keys are never exposed.  
-- **PIN protection** and **mutual authentication** secure the communication between the card and backend.  
+- **Transaction signing** happens inside the card — private keys are never exposed.  
 - **Traceable operations** — all transactions can be verified on the Hedera public ledger.  
 
 ---
@@ -138,7 +138,7 @@ Please contact **info@gardio.io** to request access.
 ---
 
 ## 🏷️ Tags / Topics
-`gardio`, `gardio pay`, `Hedera`, `Solana`, `Polygon`, `Crypto`, `USDC`, `Payment`, `Gardio Card`, `Blockchain`, `Hackathon`, `Demo`
+`gardio`, `gardio pay`, `Hedera`, `Solana`, `Crypto`, `USDC`, `Payment`, `Gardio Card`, `Blockchain`, `Hackathon`, `Demo`
 
 ---
 
