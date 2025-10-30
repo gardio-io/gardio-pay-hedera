@@ -59,7 +59,7 @@ It reproduces the same interaction shown in the demo, allowing judges to execute
 
 ## 🧠 Hackathon Updates
 
-During the hackathon period, we achieved the following major updates:
+During the hackathon period starting on **October 25th**, we accomplished the following major updates:
 
 1. **Hedera Network Support**  
   Migrated from **Solana** and **rewrote the smart contract from Rust to Solidity** for full compatibility with **Hedera**.  
