@@ -5,27 +5,141 @@
 </p>
 
 ## Overview
-Our mission is to revolutionize payment systems by enabling seamless native crypto transactions through the familiar infrastructure of Point of Sale (PoS) terminals, facilitated by Gardio EMV Crypto Cards on Hedera.
+
+Our mission is to revolutionize payment systems by enabling **seamless native crypto transactions** through the familiar infrastructure of Point of Sale (PoS) terminals — powered by **Gardio EMV Crypto Cards** and the **Hedera network**.
+
+Originally built on **Solana**, Gardio Pay was **adapted and optimized for Hedera** during the hackathon period to leverage its **high speed**, **large transaction capacity**, and **low predictable fees**.
 
 ---
 
 ## 🎬 Demo
 [![Demo Video on Vimeo](./preview.png)](https://vimeo.com/1131850690)
 
-**Watch the demo on Vimeo →** [Gardio Pay Demo](https://vimeo.com/1131850690)
-
-
-## How to Use
-*Coming soon…*  
-
-*(Add instructions for installing, configuring, or running your solution here.)*
+**Watch the demo on Vimeo →** [Gardio Pay Demo](https://vimeo.com/1131850690)
 
 ---
 
-## Links
-- Contact: info@gardio.io  
+## 🧩 Project Description
+
+**Gardio Pay** demonstrates a real-world crypto payment flow using:
+- **Gardio EMV Crypto Card** (hardware or simulator) to securely sign transactions.
+- **PoS Terminal** at the merchant’s store to process customer payments.
+- **Gardio Pay Portal** for users to manage cards, charge balances, and review transaction history.
+
+Because the physical **PoS terminal and card** cannot be shipped to the judges, a **Card + PoS Simulator** was added during the hackathon.  
+It reproduces the same interaction shown in the demo, allowing judges to execute real transactions on Hedera using the same logic as the physical hardware.
+
+---
+
+## Components
+
+1. **Portal Frontend Server**  
+   Provides the user interface for managing cards, viewing transaction history, and charging accounts.
+
+2. **SmartCard (EMV Contact / Contactless)**  
+   A secure hardware card supporting both **contact** EMV and **contactless in progress** transactions for seamless user experience.
+
+3. **Gardio-Pay PoS Application**  
+   Runs on **Linux-based PoS terminals**, with an **Android version in progress**, enabling merchants to process crypto transactions using Gardio Cards.
+
+4. **Backend Server**  
+   Handles communication between the PoS/Card and the blockchain smart contract — including authentication, transaction processing, and account updates.
+
+5. **Smart Contract**  
+   Executes the on-chain logic to process EMV transactions, verify card signatures, and update **user and merchant balances** on Hedera.
+
+6. **Gardio Simulator**  
+   Simulates **Card and PoS communication** and interacts with the backend server.  
+   This allows judges to test the full demo flow (user–merchant interaction) **without requiring physical hardware**.
+
+
+> 🟡 **Note:** Card provisioning and merchant registration are **offline steps** handled through secure PoS terminals and backend systems.
+
+---
+
+## 🧠 Hackathon Updates
+
+During the hackathon period, we achieved the following major updates:
+
+1. **Hedera Network Support**  
+   Migrated from Solana and **rewrote the smart contract from Rust to Solidity** for full compatibility with Hedera.
+
+2. **Card + PoS Simulator**  
+   Added a simulator package allowing judges to **test the demo** without requiring the physical card or terminal hardware.
+
+---
+
+## 🔐 Security and Policy
+
+- **Transaction signing** happens inside the card or simulator — private keys are never exposed.  
+- **PIN protection** and **mutual authentication** secure the communication between the card and backend.  
+- **Traceable operations** — all transactions can be verified on the Hedera public ledger.  
+
+---
+
+## 📊 Workflow Summary
+
+1. **Merchant Setup (Offline)**  
+   Merchant registration and terminal provisioning occur offline through the PoS terminal setup process.
+
+2. **Card Provisioning (Offline)**  
+   Cards are securely issued and linked to users before use.
+
+3. **Payment (Demo Flow)**  
+   - The user interacts with the **PoS terminal** (as shown in the demo).  
+   - The **Gardio Card** signs the transaction and sends it to Hedera.  
+   - Confirmation appears instantly on both the terminal and the portal.
+
+4. **Portal Management**  
+   Users can log into the **Gardio Pay Portal** to view balances, charge funds, or review transaction history.
+
+---
+
+## 💡 Upcoming Features (TODO)
+
+### 1. **Prepaid & Debit Cards**
+In the current demo, Gardio Pay showcases **prepaid cards**, which are linked to **managed accounts** and can be charged through the **portal** or any **external wallet that supports Hedera USDC**.  
+A new feature under development introduces **debit cards**, allowing users to **link their card directly to their own USDC account address** on Hedera.  
+This provides greater flexibility and control while maintaining the same high level of backend security.  
+In essence, the **same card** can operate as either **prepaid or debit**, with the ability to **switch or update the linked account** at any time.
+
+### 2. **Card Revocation**
+- **Debit Cards:** Users will be able to lock their card instantly if lost or compromised.  
+- **Prepaid Cards:** When revoked, the card is locked and the associated address is frozen, preventing any further transactions.
+
+### 3. **Mobile Access**
+While the portal is mobile-friendly (allowing users to manage cards, view history, and charge via QR or address), a **dedicated mobile app** is currently in development to enhance the user experience.
+
+
+---
+
+## Comparative Overview
+Gardio Pay enables:
+- **Native crypto** payments  
+- **Instant settlement**  
+- **Fixed, predictable fees**  
+- **Inherent security** from both **Hedera** and **Secure Element–based SmartCards**  
+- **User experience** identical to traditional cards and PoS terminals
+
+---
+
+## 🔗 Links
+- Contact: **info@gardio.io**  
 - Hackathon Submission: [Hedera Africa Hackathon](https://dorahacks.io/buidl/35550)
 
 ---
-## Tags / Topics
+
+## 📜 Source Code Access
+
+The Gardio Pay source code can be **shared under NDA** for technical or evaluation purposes.  
+Please contact **info@gardio.io** to request access.
+
+> The user guide and demo credentials were submitted via the Dropbox link during hackathon submission.
+---
+
+## 🏷️ Tags / Topics
 `gardio`, `gardio pay`, `Hedera`, `Solana`, `Polygon`, `Crypto`, `USDC`, `Payment`, `Gardio Card`, `Blockchain`, `Hackathon`, `Demo`
+
+---
+
+© 2025 Gardio
