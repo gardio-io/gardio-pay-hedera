@@ -13,7 +13,9 @@ Originally built on **Solana**, Gardio Pay was **adapted and optimized for Heder
 ---
 
 ## 🎬 Demo
-[![Demo Video on Vimeo](./preview.png)](https://vimeo.com/1131850690)
+<a href="https://vimeo.com/1131850690" target="_blank">
+  <img src="./preview.png" alt="Gardio Pay Demo" width="600"/>
+</a>
 
 **Watch the demo on Vimeo →** [Gardio Pay Demo](https://vimeo.com/1131850690)
 
