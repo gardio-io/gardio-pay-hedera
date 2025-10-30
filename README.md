@@ -80,18 +80,19 @@ During the hackathon period, we achieved the following major updates:
 ## 📊 Workflow Summary
 
 1. **Merchant Setup (Offline)**  
-   Merchant registration and terminal provisioning occur offline through the PoS terminal setup process.
+   Merchant registration and terminal provisioning are handled offline through the PoS terminal setup process.
 
 2. **Card Provisioning (Offline)**  
-   Cards are securely issued and linked to users before use.
+   Cards are securely issued and linked to user accounts before activation and use.
 
 3. **Payment (Demo Flow)**  
-   - The user interacts with the **PoS terminal** (as shown in the demo).  
-   - The **Gardio Card** signs the transaction and sends it to Hedera.  
-   - Confirmation appears instantly on both the terminal and the portal.
+   - The user **charges/adds balance** to the card from the **Gardio Pay Portal**.  
+   - The user then interacts with the **PoS terminal** (as shown in the demo).  
+   - The **Gardio Card** securely signs the transaction and sends it to the **Hedera network**.  
+   - Transaction confirmation appears instantly on both the **terminal** and the **portal**, and the **merchant’s wallet** is updated within a few seconds.
 
 4. **Portal Management**  
-   Users can log into the **Gardio Pay Portal** to view balances, charge funds, or review transaction history.
+   Users can access the **Gardio Pay Portal** to view balances, charge funds, or review transaction history at any time.
 
 ---
 
@@ -134,7 +135,7 @@ Gardio Pay enables:
 The Gardio Pay source code can be **shared under NDA** for technical or evaluation purposes.  
 Please contact **info@gardio.io** to request access.
 
-> The user guide and demo credentials were submitted via the Dropbox link during hackathon submission.
+> The **User Guide**, **Gardio Pay Portal link**, **Gardio Simulator link**, and **demo credentials** were submitted securely via the **Dropbox link** during the hackathon submission.
 ---
 
 ## 🏷️ Tags / Topics
