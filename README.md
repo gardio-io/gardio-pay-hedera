@@ -66,7 +66,7 @@ During the hackathon (starting October 25), the following updates were implement
 3. **Payment Flow (Demo)** –  
    - User charges the **prepaid card** via the **Gardio Pay Portal**  
    - User pays via **PoS terminal**  
-   - Card signs and submits the transaction to **Hedera**  
+   - The **Gardio Card** signs the transaction, and the **PoS terminal** forwards it to the **Gardio Server**, which submits the transaction to **Hedera**Card signs the transaction, and PoS terminal foward it gardio server that submits the transaction to **Hedera**  
    - Merchant and user see instant confirmation  
 4. **Portal Management** – Continuous balance and transaction visibility  
 
