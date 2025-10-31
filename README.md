@@ -45,7 +45,7 @@ A **Card + PoS Simulator** was developed for the hackathon to replicate physical
 3. **Payment Flow (Demo)** –  
    - User charges the **prepaid card** via the **Gardio Pay Portal**  
    - User pays via **PoS terminal**  
-   - The **Gardio Card** signs the transaction, and the **PoS terminal** forwards it to the **Gardio Server**, which submits the transaction to **Hedera**Card signs the transaction, and PoS terminal foward it gardio server that submits the transaction to **Hedera**  
+   - The **Gardio Card** signs the transaction, and the **PoS terminal** forwards it to the **Gardio Server**, which submits the transaction to **Hedera**
    - Merchant and user see instant confirmation  
 4. **Portal Management** – Continuous balance and transaction visibility  
 ---
