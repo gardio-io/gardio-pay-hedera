@@ -1,3 +1,13 @@
+> ⚠️ **Repository Deprecated**  
+>
+> This repository is **no longer maintained**.  
+> The project has been **migrated to a new repository** to comply with updated GitHub submission guidelines for the Hedera Africa Hackathon.  
+>
+> Please visit the active repository here:  
+> [https://github.com/gardio-dev-1/gardio-pay-hedera](https://github.com/gardio-dev-1/gardio-pay-hedera)
+>
+> This repository remains accessible for **historical and reference purposes only**.
+
 # gardio-pay
 
 <p align="center">
